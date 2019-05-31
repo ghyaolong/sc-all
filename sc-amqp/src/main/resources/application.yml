@@ -13,6 +13,6 @@ spring:
     virtual-host: /
     listener:
       simple:
-        concurrency: 10
-        max-concurrency: 15
+        concurrency: 15
+        max-concurrency: 20
 
