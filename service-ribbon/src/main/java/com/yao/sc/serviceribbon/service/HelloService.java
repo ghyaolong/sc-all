@@ -2,6 +2,7 @@ package com.yao.sc.serviceribbon.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.command.AsyncResult;
+import com.netflix.hystrix.exception.HystrixBadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -32,7 +33,7 @@ public class HelloService {
      * @param name
      * @return
      */
-    @HystrixCommand
+    @HystrixCommand(ignoreExceptions = {HystrixBadRequestException.class},fallbackMethod = "hiServiceHystrix")
     public Future<String> hiService(String name) {
         return new AsyncResult<String>() {
             @Override
@@ -41,6 +42,22 @@ public class HelloService {
             }
         };
     }
+
+    /**
+     * hiService方法抛出不同的异常做不同的处理
+     * @param name
+     * @param t
+     * @return
+     */
+    public String hiServiceHystrix(String name,Throwable t){
+        if(t.getMessage().equals("ABCXXXXException")){
+            //todo
+        }else if(t.getMessage().equals("DEFXXXXException")){
+            //todo
+        }
+        return String.format("name:", t.getMessage());
+    }
+
 
 
 }
