@@ -5,7 +5,8 @@ import com.netflix.hystrix.contrib.javanica.command.AsyncResult;
 import com.netflix.hystrix.exception.HystrixBadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
+ import org.springframework.web.client.RestTemplate;
+
 
 import java.util.concurrent.Future;
 
@@ -26,7 +27,6 @@ public class HelloService {
     public String hiError(String name){
         return "hi,"+name+",sorry,error!";
     }*/
-
 
     /**
      * 异步实现断路器

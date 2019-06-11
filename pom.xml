@@ -17,6 +17,7 @@
         <module>service-zuul</module>
         <module>sc-test</module>
         <module>hystrix-dashboard</module>
+        <module>sc-model</module>
     </modules>
 
     <parent>
