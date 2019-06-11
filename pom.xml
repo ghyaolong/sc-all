@@ -6,6 +6,7 @@
 
     <groupId>com.yao.sc</groupId>
     <artifactId>sc-all</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
@@ -14,6 +15,8 @@
         <module>service-ribbon</module>
         <module>service-feign</module>
         <module>service-zuul</module>
+        <module>sc-test</module>
+        <module>hystrix-dashboard</module>
     </modules>
 
     <parent>

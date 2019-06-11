@@ -1,7 +1,10 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://192.168.3.162:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    #instance-id: 192.168.3.162:8764
 server:
   port: 8764
 spring:
@@ -10,3 +13,11 @@ spring:
 feign:
   hystrix:
     enabled: true
+logging:
+  level:
+    org.springframework.web: TRACE
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
