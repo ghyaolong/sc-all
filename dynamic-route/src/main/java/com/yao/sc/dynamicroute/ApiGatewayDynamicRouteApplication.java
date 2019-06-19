@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableZuulProxy
+@RefreshScope
 public class ApiGatewayDynamicRouteApplication {
 
     public static void main(String[] args) {
