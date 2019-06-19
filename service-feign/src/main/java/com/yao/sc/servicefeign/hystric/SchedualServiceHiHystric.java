@@ -13,12 +13,12 @@ public class SchedualServiceHiHystric implements SchedualServiceHi {
 
     @Override
     public User hello2(String name, Integer age) {
-        return null;
+        return new User("未知",0);
     }
 
     @Override
     public User hello3(User user) {
-        return null;
+        return new User("未知",0);
     }
 }
 
