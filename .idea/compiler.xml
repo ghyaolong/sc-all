@@ -6,21 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service-feign" />
         <module name="service-zuul" />
+        <module name="sc-model" />
         <module name="sc-amqp" />
-        <module name="sc-all" />
+        <module name="config-server" />
+        <module name="dynamic-route" />
+        <module name="hystrix-dashboard" />
         <module name="eureka-server" />
         <module name="service-hi" />
         <module name="service-ribbon" />
-        <module name="service-feign" />
+        <module name="config-client" />
+        <module name="sc-test" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="dynamic-route" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
       <module name="sc-all" options="-parameters" />
       <module name="sc-amqp" options="-parameters" />
+      <module name="sc-model" options="-parameters" />
+      <module name="sc-test" options="-parameters" />
       <module name="service-feign" options="-parameters" />
       <module name="service-hi" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
