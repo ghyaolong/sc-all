@@ -21,6 +21,7 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>dynamic-route</module>
+        <module>sc-stream</module>
     </modules>
 
     <parent>
