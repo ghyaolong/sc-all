@@ -21,6 +21,7 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>dynamic-route</module>
+        <module>service-miya</module>
     </modules>
 
     <parent>
