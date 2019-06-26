@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="411e2cbd-d1bd-4e11-b673-1b95f496167a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamic-route/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/src/main/java/com/yao/sc/configclient/ConfigClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/java/com/yao/sc/configclient/ConfigClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/yao/sc/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/yao/sc/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-route/src/main/java/com/yao/sc/dynamicroute/ApiGatewayDynamicRouteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-route/src/main/java/com/yao/sc/dynamicroute/ApiGatewayDynamicRouteApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-stream/src/main/java/com/yao/sc/stream/receiver/SinkReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/service-ribbon/target/" />
@@ -29,6 +25,10 @@
     <ignored path="$PROJECT_DIR$/sc-test/target/" />
     <ignored path="$PROJECT_DIR$/config-client/target/" />
     <ignored path="$PROJECT_DIR$/dynamic-route/target/" />
+    <ignored path="$PROJECT_DIR$/sc-stream/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/service-miya/target/" />
+    <ignored path="$PROJECT_DIR$/admin-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,29 +54,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-route/src/main/java/com/yao/sc/dynamicroute/ApiGatewayDynamicRouteApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="324">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/yao/sc/configclient/ConfigClientApplication.java">
+        <entry file="file://$PROJECT_DIR$/admin-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="453">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/yao/sc/servicehi/ServiceHiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-864">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin-server/src/main/java/com/yao/sc/adminserver/AdminServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/de/codecentric/spring-boot-admin-client/2.1.4/spring-boot-admin-client-2.1.4-sources.jar!/de/codecentric/boot/admin/client/registration/DefaultApplicationFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="48" column="37" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.1.5.RELEASE/spring-boot-actuator-2.1.5.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/web/PathMappedEndpoints.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.1.5.RELEASE/spring-boot-actuator-2.1.5.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/EndpointId.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -95,6 +158,11 @@
       <find>path</find>
       <find>context-path</find>
       <find>concurrency</find>
+      <find>bus</find>
+      <find>service</find>
+      <find>service(</find>
+      <find>enabled</find>
+      <find>security.e</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,7 +179,6 @@
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/yao/sc/servicefeign/ServiceFeignApplication.java" />
         <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/yao/sc/serviceribbon/service/HelloService.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-route/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-route/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" />
@@ -122,6 +189,17 @@
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/yao/sc/configclient/ConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/sc-stream/src/main/java/com/yao/sc/stream/receiver/SinkReceiver.java" />
+        <option value="$PROJECT_DIR$/sc-stream/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sc-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/java/com/yao/sc/zipkinserver/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hi/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/admin-server/src/main/java/com/yao/sc/adminserver/AdminServerApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -159,42 +237,42 @@
             <path>
               <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc-all" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc-all" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc-all" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-all" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc-all" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="configclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc-all" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adminserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -202,25 +280,25 @@
             <path>
               <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc-all" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc-all" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc-all" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sc-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc-all" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -229,8 +307,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +339,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+  <component name="RunManager" selected="Spring Boot.AdminServerApplication">
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.sc.adminserver.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiGatewayDynamicRouteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dynamic-route" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.sc.dynamicroute.ApiGatewayDynamicRouteApplication" />
@@ -305,6 +390,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScStreamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-stream" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.sc.stream.ScStreamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.sc.servicefeign.ServiceFeignApplication" />
@@ -315,6 +407,13 @@
     <configuration name="ServiceHiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-hi" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.sc.servicehi.ServiceHiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceMiyaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-miya" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.sc.servicemiya.ServiceMiyaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -333,6 +432,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.sc.zipkinserver.ZipkinServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ScAmqpApplication" />
@@ -344,6 +450,10 @@
       <item itemvalue="Spring Boot.HystrixDashboardApplication" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.ApiGatewayDynamicRouteApplication" />
+      <item itemvalue="Spring Boot.ScStreamApplication" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
+      <item itemvalue="Spring Boot.ServiceMiyaApplication" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -360,7 +470,10 @@
       <workItem from="1559230383335" duration="376000" />
       <workItem from="1559236937634" duration="3197000" />
       <workItem from="1559524692079" duration="6418000" />
-      <workItem from="1561000332154" duration="8827000" />
+      <workItem from="1561000332154" duration="11132000" />
+      <workItem from="1561340375468" duration="2015000" />
+      <workItem from="1561361587702" duration="6988000" />
+      <workItem from="1561430660403" duration="13900000" />
     </task>
     <task id="LOCAL-00001" summary="增加RabbitMQ并行消费demo">
       <created>1559200458593</created>
@@ -383,16 +496,31 @@
       <option name="project" value="LOCAL" />
       <updated>1560945703124</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改远程github的配置地址，post  /acturator/bus/re-fresh请求，实现动态刷新配置修改">
+      <created>1561105870846</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561105870846</updated>
+    </task>
+    <task id="LOCAL-00005" summary="stream">
+      <created>1561376191286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561376191286</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38194000" />
+    <option name="totallyTimeSpent" value="63402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903846" visible="true" weight="0.18799682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49903846" visible="true" weight="0.13076311" />
       <window_info id="Structure" order="1" sideWeight="0.50096154" side_tool="true" weight="0.2579491" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -403,7 +531,42 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40639627" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960256" visible="true" weight="0.52418095" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960256" visible="true" weight="0.4602184" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.31825274" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.21581876" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49903846" visible="true" weight="0.15103339" />
+      <window_info id="Structure" order="1" sideWeight="0.50096154" side_tool="true" weight="0.2579491" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40639627" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960256" visible="true" weight="0.4602184" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -424,8 +587,8 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info anchor="right" id="Database" order="9" visible="true" weight="0.3298887" />
-    </layout>
+      <window_info anchor="right" id="Database" order="9" weight="0.21581876" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -437,356 +600,32 @@
     <MESSAGE value="增加RabbitMQ并行消费demo" />
     <MESSAGE value="增加断路器(异步实现方式)" />
     <MESSAGE value="dynamic zuul" />
-    <option name="LAST_COMMIT_MESSAGE" value="dynamic zuul" />
+    <MESSAGE value="修改远程github的配置地址，post  /acturator/bus/re-fresh请求，实现动态刷新配置修改" />
+    <MESSAGE value="stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/de/codecentric/spring-boot-admin-client/2.1.4/spring-boot-admin-client-2.1.4.jar!/de/codecentric/boot/admin/client/registration/DefaultApplicationFactory.class</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(EndpointId.of(&quot;status&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/yao/sc/servicefeign/ServiceFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreakerImportSelector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreakerImportSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/HystrixAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCircuitBreaker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#4503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/META-INF/hystrix-core.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar!/com/netflix/hystrix/HystrixCircuitBreaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="124" column="35" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar!/com/netflix/hystrix/HystrixCommandMetrics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="69" column="42" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
-          <folding>
-            <element signature="e#2104#2808#0" expanded="true" />
-            <element signature="e#2807#2808#0" expanded="true" />
-            <element signature="e#2884#3706#0" expanded="true" />
-            <element signature="e#3705#3706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar!/com/netflix/hystrix/HystrixCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar!/com/netflix/hystrix/exception/HystrixRuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="27" column="70" lean-forward="true" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JIGSAW/hystrix.core">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JIGSAW</ID>
-          <OriginalElement>hystrix.core</OriginalElement>
-          <nodes>
-            <node x="" y="">hystrix.core</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="18.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/exception/HystrixBadRequestException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/ObservableExecutionMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="94" column="7" lean-forward="true" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_201/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="375" column="18" selection-start-line="375" selection-start-column="18" selection-end-line="375" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/yao/sc/serviceribbon/service/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#929#1137#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/yao/sc/servicezuul/pre/ThrowExceptionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.1.RELEASE/spring-cloud-netflix-zuul-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/ServletDetectionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.1.RELEASE/spring-cloud-netflix-zuul-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/FormBodyWrapperFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="71" column="41" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.1.RELEASE/spring-cloud-netflix-zuul-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonRoutingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="123" column="42" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#8127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.1.RELEASE/spring-cloud-netflix-zuul-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/post/SendResponseFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="126" column="68" selection-start-line="126" selection-start-column="68" selection-end-line="126" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/exception/ZuulException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.1.RELEASE/spring-cloud-netflix-zuul-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/post/SendErrorFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="50" column="78" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/context/RequestContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-client/2.1.1.RELEASE/spring-cloud-config-client-2.1.1.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-client/2.1.1.RELEASE/spring-cloud-config-client-2.1.1.RELEASE.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-client/2.1.1.RELEASE/spring-cloud-config-client-2.1.1.RELEASE.jar!/org/springframework/cloud/config/client/RetryProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.1.RELEASE/spring-cloud-netflix-zuul-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-526">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-route/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.1.1.RELEASE/spring-cloud-context-2.1.1.RELEASE.jar!/org/springframework/cloud/context/config/annotation/RefreshScope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.1.1.RELEASE/spring-cloud-context-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/context/scope/refresh/RefreshScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#6152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.1.1.RELEASE/spring-cloud-context-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/context/config/annotation/RefreshScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-config/2.1.1.RELEASE/spring-cloud-starter-config-2.1.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-route/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/yao/sc/configserver/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dynamic-route/src/main/java/com/yao/sc/dynamicroute/ApiGatewayDynamicRouteApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -794,17 +633,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="432">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.1.1.RELEASE/spring-cloud-bus-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/bus/event/RefreshListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="621">
+          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.1.1.RELEASE/spring-cloud-bus-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/bus/event/AckRemoteApplicationEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.1.1.RELEASE/spring-cloud-bus-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/bus/event/RemoteApplicationEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_201/src.zip!/java/util/EventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -815,10 +675,398 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#1568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-stream/src/main/java/com/yao/sc/stream/receiver/SinkReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/sc-stream/src/main/resources/application.yml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19.jar!/javax/servlet/Servlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar!/org/springframework/beans/factory/Aware.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/ApplicationContextAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-stream/pom.xml" />
+    <entry file="jar://D:/Java/jdk1.8.0_201/src.zip!/java/util/ResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="405" column="24" selection-start-line="405" selection-start-column="24" selection-end-line="405" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19-sources.jar!/javax/servlet/GenericServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19-sources.jar!/javax/servlet/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/HttpServletBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="869">
+          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/http/HttpMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE-sources.jar!/org/springframework/http/HttpMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="881" column="22" selection-start-line="881" selection-start-column="22" selection-end-line="881" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26487">
+          <caret line="998" column="19" selection-start-line="998" selection-start-column="19" selection-end-line="998" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.web.servlet.DispatcherServlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.web.servlet.DispatcherServlet</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">javax.servlet.ServletConfig</node>
+            <node x="191.9226190476191" y="174.0">javax.servlet.http.HttpServlet</node>
+            <node x="357.81547619047626" y="261.0">org.springframework.web.servlet.HttpServletBean</node>
+            <node x="377.25" y="348.0">java.lang.SuppressWarnings</node>
+            <node x="357.0" y="0.0">javax.servlet.Servlet</node>
+            <node x="641.9345238095239" y="87.0">org.springframework.beans.factory.Aware</node>
+            <node x="587.25" y="348.0">org.springframework.web.servlet.FrameworkServlet</node>
+            <node x="183.0" y="0.0">java.io.Serializable</node>
+            <node x="477.75" y="435.0">org.springframework.web.servlet.DispatcherServlet</node>
+            <node x="356.92261904761904" y="174.0">org.springframework.context.EnvironmentAware</node>
+            <node x="178.4226190476191" y="87.0">javax.servlet.GenericServlet</node>
+            <node x="566.922619047619" y="174.0">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="794.922619047619" y="174.0">org.springframework.context.ApplicationContextAware</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.context.ApplicationContextAware" target="org.springframework.beans.factory.Aware">
+              <point x="0.0" y="-18.5" />
+              <point x="921.422619047619" y="149.0" />
+              <point x="710.1845238095239" y="149.0" />
+              <point x="22.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.web.servlet.FrameworkServlet" target="org.springframework.web.servlet.HttpServletBean">
+              <point x="-47.5" y="-18.5" />
+              <point x="634.75" y="323.0" />
+              <point x="448.31547619047626" y="323.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.web.servlet.DispatcherServlet" target="org.springframework.web.servlet.FrameworkServlet">
+              <point x="49.75" y="-18.5" />
+              <point x="627.0" y="410.0" />
+              <point x="682.25" y="410.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.web.servlet.DispatcherServlet" target="java.lang.SuppressWarnings">
+              <point x="-49.75" y="-18.5" />
+              <point x="527.5" y="410.0" />
+              <point x="472.25" y="410.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="java.io.Serializable">
+              <point x="0.0" y="-18.5" />
+              <point x="264.4226190476191" y="62.0" />
+              <point x="260.0" y="62.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.web.servlet.HttpServletBean" target="org.springframework.context.EnvironmentAware">
+              <point x="0.0" y="-18.5" />
+              <point x="448.31547619047626" y="236.0" />
+              <point x="451.92261904761904" y="236.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.context.EnvironmentAware" target="org.springframework.beans.factory.Aware">
+              <point x="-5.6843418860808015E-14" y="-18.5" />
+              <point x="451.92261904761904" y="149.0" />
+              <point x="664.6845238095239" y="149.0" />
+              <point x="-22.75" y="18.5" />
+            </edge>
+            <edge source="javax.servlet.http.HttpServlet" target="javax.servlet.GenericServlet">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.web.servlet.HttpServletBean" target="org.springframework.core.env.EnvironmentCapable">
+              <point x="60.333333333333314" y="-18.5" />
+              <point x="508.6488095238096" y="236.0" />
+              <point x="670.922619047619" y="236.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="javax.servlet.Servlet">
+              <point x="57.333333333333314" y="-18.5" />
+              <point x="321.7559523809524" y="62.0" />
+              <point x="411.5" y="62.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="javax.servlet.ServletConfig">
+              <point x="-57.33333333333334" y="-18.5" />
+              <point x="207.08928571428572" y="62.0" />
+              <point x="81.5" y="62.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.web.servlet.HttpServletBean" target="javax.servlet.http.HttpServlet">
+              <point x="-60.33333333333337" y="-18.5" />
+              <point x="387.9821428571429" y="236.0" />
+              <point x="264.4226190476191" y="236.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.web.servlet.FrameworkServlet" target="org.springframework.context.ApplicationContextAware">
+              <point x="47.5" y="-18.5" />
+              <point x="729.75" y="323.0" />
+              <point x="921.422619047619" y="323.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-505.0" y="-139.0" />
+          <SelectedNodes>
+            <node>javax.servlet.http.HttpServlet</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19-sources.jar!/org/apache/catalina/Loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19-sources.jar!/org/apache/tomcat/util/threads/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19.jar!/org/apache/tomcat/util/threads/ThreadPoolExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#5651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-stream/src/main/java/com/yao/sc/stream/ScStreamApplication.java" />
+    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/java/com/yao/sc/zipkinserver/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/yao/cs/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.5.RELEASE/spring-boot-actuator-autoconfigure-2.1.5.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="2990" column="101" selection-start-line="2990" selection-start-column="101" selection-end-line="2990" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="440" column="9" lean-forward="true" selection-start-line="440" selection-start-column="9" selection-end-line="440" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.1.5.RELEASE/spring-boot-actuator-2.1.5.RELEASE.jar!/org/springframework/boot/actuate/endpoint/EndpointId.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.1.5.RELEASE/spring-boot-actuator-2.1.5.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/EndpointId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/codecentric/spring-boot-admin-client/2.1.4/spring-boot-admin-client-2.1.4.jar!/de/codecentric/boot/admin/client/registration/DefaultApplicationFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.1.5.RELEASE/spring-boot-actuator-2.1.5.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/web/PathMappedEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.1.5.RELEASE/spring-boot-actuator-2.1.5.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/web/PathMappedEndpoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/codecentric/spring-boot-admin-client/2.1.4/spring-boot-admin-client-2.1.4-sources.jar!/de/codecentric/boot/admin/client/registration/DefaultApplicationFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/yao/sc/servicehi/ServiceHiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="79" lean-forward="true" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-server/src/main/java/com/yao/sc/adminserver/AdminServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

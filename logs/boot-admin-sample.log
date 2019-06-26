@@ -1,0 +1,377 @@
+2019-06-26 15:10:52.393  INFO 17160 --- [main] c.y.s.a.AdminServerApplication           : No active profile set, falling back to default profiles: default
+2019-06-26 15:10:52.915  WARN 17160 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-06-26 15:10:53.036  INFO 17160 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6d14a5d2-0355-3dff-acdd-10a3202b5b2f
+2019-06-26 15:10:53.106  INFO 17160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dfd65dca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-26 15:10:53.283  INFO 17160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2019-06-26 15:10:53.299  INFO 17160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-26 15:10:53.299  INFO 17160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-26 15:10:53.408  INFO 17160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-26 15:10:53.408  INFO 17160 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1006 ms
+2019-06-26 15:10:53.484  WARN 17160 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 15:10:53.485  INFO 17160 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 15:10:53.493  INFO 17160 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@66e21568
+2019-06-26 15:10:53.980  WARN 17160 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 15:10:53.981  INFO 17160 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 15:10:54.107  INFO 17160 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-26 15:10:54.180  WARN 17160 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-06-26 15:10:54.927  INFO 17160 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-26 15:10:55.012  INFO 17160 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-06-26 15:10:55.040  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-06-26 15:10:55.308  INFO 17160 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-06-26 15:10:55.308  INFO 17160 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-06-26 15:10:55.400  INFO 17160 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-06-26 15:10:55.400  INFO 17160 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-06-26 15:10:55.564  INFO 17160 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:10:55.692  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-06-26 15:10:55.692  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-06-26 15:10:55.692  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-06-26 15:10:55.692  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-06-26 15:10:55.692  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-06-26 15:10:55.692  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-06-26 15:10:55.692  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-06-26 15:10:55.827  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-06-26 15:10:55.829  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-06-26 15:10:55.831  INFO 17160 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-06-26 15:10:55.834  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1561533055833 with initial instances count: 2
+2019-06-26 15:10:55.835  INFO 17160 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-ADMIN with eureka with status UP
+2019-06-26 15:10:55.835  INFO 17160 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561533055835, current=UP, previous=STARTING]
+2019-06-26 15:10:55.837  INFO 17160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:5000: registering service...
+2019-06-26 15:10:55.869  INFO 17160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:5000 - registration status: 204
+2019-06-26 15:10:56.200  INFO 17160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5000 (http) with context path ''
+2019-06-26 15:10:56.201  INFO 17160 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5000
+2019-06-26 15:10:56.202  INFO 17160 --- [main] c.y.s.a.AdminServerApplication           : Started AdminServerApplication in 4.825 seconds (JVM running for 5.697)
+2019-06-26 15:10:56.568  INFO 17160 --- [RMI TCP Connection(1)-192.168.150.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-26 15:10:56.569  INFO 17160 --- [RMI TCP Connection(1)-192.168.150.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-26 15:10:56.575  INFO 17160 --- [RMI TCP Connection(1)-192.168.150.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-06-26 15:11:52.030  INFO 17160 --- [Thread-27] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-ADMIN with eureka with status DOWN
+2019-06-26 15:11:52.030  WARN 17160 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561533112030, current=DOWN, previous=UP]
+2019-06-26 15:11:52.030  INFO 17160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:5000: registering service...
+2019-06-26 15:11:52.034  INFO 17160 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:5000 - registration status: 204
+2019-06-26 15:11:52.047  INFO 17160 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-26 15:11:52.050  INFO 17160 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-06-26 15:11:55.050  INFO 17160 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-06-26 15:11:55.056  INFO 17160 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:5000 - deregister  status: 200
+2019-06-26 15:11:55.061  INFO 17160 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-06-26 15:12:02.232  INFO 17916 --- [main] c.y.s.a.AdminServerApplication           : No active profile set, falling back to default profiles: default
+2019-06-26 15:12:02.731  WARN 17916 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-06-26 15:12:02.850  INFO 17916 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6d14a5d2-0355-3dff-acdd-10a3202b5b2f
+2019-06-26 15:12:02.917  INFO 17916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f25b9ad1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-26 15:12:03.088  INFO 17916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2019-06-26 15:12:03.103  INFO 17916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-26 15:12:03.103  INFO 17916 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-26 15:12:03.210  INFO 17916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-26 15:12:03.210  INFO 17916 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 969 ms
+2019-06-26 15:12:03.285  WARN 17916 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 15:12:03.285  INFO 17916 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 15:12:03.294  INFO 17916 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@47b33e07
+2019-06-26 15:12:03.783  WARN 17916 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 15:12:03.783  INFO 17916 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 15:12:03.910  INFO 17916 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-26 15:12:03.980  WARN 17916 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-06-26 15:12:04.713  INFO 17916 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-26 15:12:04.784  INFO 17916 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-06-26 15:12:04.812  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-06-26 15:12:05.067  INFO 17916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-06-26 15:12:05.068  INFO 17916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-06-26 15:12:05.162  INFO 17916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-06-26 15:12:05.162  INFO 17916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-06-26 15:12:05.327  INFO 17916 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:12:05.454  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-06-26 15:12:05.454  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-06-26 15:12:05.454  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-06-26 15:12:05.454  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-06-26 15:12:05.454  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-06-26 15:12:05.454  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-06-26 15:12:05.454  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-06-26 15:12:05.587  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-06-26 15:12:05.590  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-06-26 15:12:05.591  INFO 17916 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-06-26 15:12:05.594  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1561533125594 with initial instances count: 2
+2019-06-26 15:12:05.595  INFO 17916 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-ADMIN with eureka with status UP
+2019-06-26 15:12:05.596  INFO 17916 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561533125596, current=UP, previous=STARTING]
+2019-06-26 15:12:05.597  INFO 17916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:5000: registering service...
+2019-06-26 15:12:05.627  INFO 17916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:5000 - registration status: 204
+2019-06-26 15:12:05.962  INFO 17916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5000 (http) with context path ''
+2019-06-26 15:12:05.962  INFO 17916 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5000
+2019-06-26 15:12:05.964  INFO 17916 --- [main] c.y.s.a.AdminServerApplication           : Started AdminServerApplication in 4.786 seconds (JVM running for 5.494)
+2019-06-26 15:12:06.396  INFO 17916 --- [RMI TCP Connection(1)-192.168.150.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-26 15:12:06.397  INFO 17916 --- [RMI TCP Connection(1)-192.168.150.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-26 15:12:06.403  INFO 17916 --- [RMI TCP Connection(1)-192.168.150.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-06-26 15:17:05.456  INFO 17916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:22:05.458  INFO 17916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:27:05.459  INFO 17916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:32:05.461  INFO 17916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:34:40.623  INFO 17916 --- [Thread-27] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-ADMIN with eureka with status DOWN
+2019-06-26 15:34:40.623  WARN 17916 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561534480623, current=DOWN, previous=UP]
+2019-06-26 15:34:40.623  INFO 17916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:5000: registering service...
+2019-06-26 15:34:40.628  INFO 17916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:5000 - registration status: 204
+2019-06-26 15:34:40.637  INFO 17916 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-26 15:34:40.640  INFO 17916 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-06-26 15:34:43.642  INFO 17916 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-06-26 15:34:43.646  INFO 17916 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:5000 - deregister  status: 200
+2019-06-26 15:34:43.652  INFO 17916 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-06-26 15:34:57.125  INFO 6372 --- [main] c.y.s.a.AdminServerApplication           : No active profile set, falling back to default profiles: default
+2019-06-26 15:34:57.620  WARN 6372 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-06-26 15:34:57.735  INFO 6372 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6d14a5d2-0355-3dff-acdd-10a3202b5b2f
+2019-06-26 15:34:57.805  INFO 6372 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1e52971e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-26 15:34:57.975  INFO 6372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-06-26 15:34:57.991  INFO 6372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-26 15:34:57.991  INFO 6372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-26 15:34:58.112  INFO 6372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-26 15:34:58.112  INFO 6372 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 978 ms
+2019-06-26 15:34:58.177  WARN 6372 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 15:34:58.177  INFO 6372 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 15:34:58.185  INFO 6372 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@30bf26df
+2019-06-26 15:34:58.673  WARN 6372 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 15:34:58.673  INFO 6372 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 15:34:58.801  INFO 6372 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-26 15:34:58.871  WARN 6372 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-06-26 15:34:59.590  INFO 6372 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-26 15:34:59.660  INFO 6372 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-06-26 15:34:59.687  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-06-26 15:34:59.945  INFO 6372 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-06-26 15:34:59.945  INFO 6372 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-06-26 15:35:00.053  INFO 6372 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-06-26 15:35:00.054  INFO 6372 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-06-26 15:35:00.217  INFO 6372 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:35:00.363  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-06-26 15:35:00.363  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-06-26 15:35:00.363  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-06-26 15:35:00.363  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-06-26 15:35:00.363  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-06-26 15:35:00.363  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-06-26 15:35:00.363  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-06-26 15:35:00.504  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-06-26 15:35:00.506  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-06-26 15:35:00.508  INFO 6372 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-06-26 15:35:00.512  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1561534500511 with initial instances count: 2
+2019-06-26 15:35:00.513  INFO 6372 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-ADMIN with eureka with status UP
+2019-06-26 15:35:00.513  INFO 6372 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561534500513, current=UP, previous=STARTING]
+2019-06-26 15:35:00.515  INFO 6372 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000: registering service...
+2019-06-26 15:35:00.547  INFO 6372 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000 - registration status: 204
+2019-06-26 15:35:00.890  INFO 6372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-06-26 15:35:00.891  INFO 6372 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2019-06-26 15:35:00.892  INFO 6372 --- [main] c.y.s.a.AdminServerApplication           : Started AdminServerApplication in 4.84 seconds (JVM running for 5.538)
+2019-06-26 15:35:01.501  INFO 6372 --- [RMI TCP Connection(4)-192.168.150.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-26 15:35:01.501  INFO 6372 --- [RMI TCP Connection(4)-192.168.150.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-26 15:35:01.507  INFO 6372 --- [RMI TCP Connection(4)-192.168.150.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-06-26 15:39:00.581  INFO 6372 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance 'af1cc2eeb332' missing in DiscoveryClient services and will be removed.
+2019-06-26 15:39:03.364  INFO 6372 --- [Thread-27] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-ADMIN with eureka with status DOWN
+2019-06-26 15:39:03.365  WARN 6372 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561534743365, current=DOWN, previous=UP]
+2019-06-26 15:39:03.365  INFO 6372 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000: registering service...
+2019-06-26 15:39:03.369  INFO 6372 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000 - registration status: 204
+2019-06-26 15:39:03.379  INFO 6372 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-26 15:39:03.382  INFO 6372 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-06-26 15:39:06.382  INFO 6372 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-06-26 15:39:06.393  INFO 6372 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000 - deregister  status: 200
+2019-06-26 15:39:06.408  INFO 6372 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-06-26 15:39:11.529  INFO 17044 --- [main] c.y.s.a.AdminServerApplication           : No active profile set, falling back to default profiles: default
+2019-06-26 15:39:12.021  WARN 17044 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-06-26 15:39:12.138  INFO 17044 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6d14a5d2-0355-3dff-acdd-10a3202b5b2f
+2019-06-26 15:39:12.203  INFO 17044 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6b2c511b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-26 15:39:12.375  INFO 17044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-06-26 15:39:12.390  INFO 17044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-26 15:39:12.391  INFO 17044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-26 15:39:12.498  INFO 17044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-26 15:39:12.499  INFO 17044 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 961 ms
+2019-06-26 15:39:12.575  WARN 17044 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 15:39:12.576  INFO 17044 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 15:39:12.584  INFO 17044 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5e002356
+2019-06-26 15:39:13.073  WARN 17044 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 15:39:13.073  INFO 17044 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 15:39:13.199  INFO 17044 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-26 15:39:13.269  WARN 17044 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-06-26 15:39:13.995  INFO 17044 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-26 15:39:14.071  INFO 17044 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-06-26 15:39:14.101  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-06-26 15:39:14.361  INFO 17044 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-06-26 15:39:14.361  INFO 17044 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-06-26 15:39:14.457  INFO 17044 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-06-26 15:39:14.458  INFO 17044 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-06-26 15:39:14.620  INFO 17044 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:39:14.749  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-06-26 15:39:14.749  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-06-26 15:39:14.749  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-06-26 15:39:14.749  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-06-26 15:39:14.749  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-06-26 15:39:14.749  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-06-26 15:39:14.749  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-06-26 15:39:14.889  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-06-26 15:39:14.891  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-06-26 15:39:14.894  INFO 17044 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-06-26 15:39:14.897  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1561534754896 with initial instances count: 3
+2019-06-26 15:39:14.898  INFO 17044 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-ADMIN with eureka with status UP
+2019-06-26 15:39:14.898  INFO 17044 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561534754898, current=UP, previous=STARTING]
+2019-06-26 15:39:14.900  INFO 17044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000: registering service...
+2019-06-26 15:39:14.932  INFO 17044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000 - registration status: 204
+2019-06-26 15:39:15.255  INFO 17044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-06-26 15:39:15.256  INFO 17044 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2019-06-26 15:39:15.258  INFO 17044 --- [main] c.y.s.a.AdminServerApplication           : Started AdminServerApplication in 4.77 seconds (JVM running for 5.467)
+2019-06-26 15:39:15.316  INFO 17044 --- [http-nio-9000-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-26 15:39:15.316  INFO 17044 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-26 15:39:15.323  INFO 17044 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-06-26 15:41:34.585  INFO 17044 --- [reactor-http-nio-8] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=af1cc2eeb332, version=1, registration=Registration(name=SERVICE-HI, managementUrl=http://192.168.3.187:8763/actuator, healthUrl=http://192.168.3.187:8763/actuator/health, serviceUrl=http://192.168.3.187:8763/, source=discovery), registered=true, statusInfo=StatusInfo(status=DOWN, details={path=/actuator/health, error=Unauthorized, message=Unauthorized, status=401, timestamp=2019-06-26T07:40:15.009+0000}), statusTimestamp=2019-06-26T07:40:15.023Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://192.168.3.187:8763/actuator/health)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.3.187:8763
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_201]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:670) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906) ~[netty-common-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.36.Final.jar:4.1.36.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_201]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 common frames omitted
+
+2019-06-26 15:41:44.932  INFO 17044 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance 'af1cc2eeb332' missing in DiscoveryClient services and will be removed.
+2019-06-26 15:42:15.944  INFO 17044 --- [reactor-http-nio-2] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=af1cc2eeb332, version=4, registration=Registration(name=SERVICE-HI, managementUrl=http://192.168.3.187:8763/actuator, healthUrl=http://192.168.3.187:8763/actuator/health, serviceUrl=http://192.168.3.187:8763/, source=discovery), registered=true, statusInfo=StatusInfo(status=UNKNOWN, details={}), statusTimestamp=2019-06-26T07:42:14.939Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://192.168.3.187:8763/actuator/health)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.3.187:8763
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_201]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:670) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906) ~[netty-common-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.36.Final.jar:4.1.36.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_201]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 common frames omitted
+
+2019-06-26 15:44:14.753  INFO 17044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:47:15.001  INFO 17044 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance 'af1cc2eeb332' missing in DiscoveryClient services and will be removed.
+2019-06-26 15:48:43.580  WARN 17044 --- [parallel-1] d.c.b.a.server.services.IntervalCheck    : Unexpected error in status-check
+
+reactor.core.Exceptions$OverflowException: Could not emit tick 56 due to lack of requests (interval doesn't support small downstream requests that replenish slower than the ticks)
+	at reactor.core.Exceptions.failWithOverflow(Exceptions.java:215) ~[reactor-core-3.2.9.RELEASE.jar:3.2.9.RELEASE]
+	at reactor.core.publisher.FluxInterval$IntervalRunnable.run(FluxInterval.java:130) ~[reactor-core-3.2.9.RELEASE.jar:3.2.9.RELEASE]
+	at reactor.core.scheduler.PeriodicWorkerTask.call(PeriodicWorkerTask.java:59) ~[reactor-core-3.2.9.RELEASE.jar:3.2.9.RELEASE]
+	at reactor.core.scheduler.PeriodicWorkerTask.run(PeriodicWorkerTask.java:73) ~[reactor-core-3.2.9.RELEASE.jar:3.2.9.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_201]
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308) ~[na:1.8.0_201]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:1.8.0_201]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_201]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_201]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_201]
+
+2019-06-26 15:49:14.757  INFO 17044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:54:14.758  INFO 17044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 15:59:14.760  INFO 17044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 16:00:44.599  INFO 17044 --- [reactor-http-nio-1] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=af1cc2eeb332, version=9, registration=Registration(name=SERVICE-HI, managementUrl=http://192.168.3.187:8763/actuator, healthUrl=http://192.168.3.187:8763/actuator/health, serviceUrl=http://192.168.3.187:8763/, source=discovery), registered=true, statusInfo=StatusInfo(status=DOWN, details={path=/actuator/health, error=Unauthorized, message=Unauthorized, status=401, timestamp=2019-06-26T07:49:45.038+0000}), statusTimestamp=2019-06-26T07:49:45.040Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://192.168.3.187:8763/actuator/health)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.3.187:8763
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_201]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:670) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906) ~[netty-common-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.36.Final.jar:4.1.36.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_201]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 common frames omitted
+
+2019-06-26 16:02:27.060  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.QueryIndexEndpointStrategy : Querying actuator-index for instance 236274f47f1f on 'http://PC201905151653:8763/actuator' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:27.078  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.QueryIndexEndpointStrategy : Querying actuator-index for instance af1cc2eeb332 on 'http://192.168.3.187:8763/actuator' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.077  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/dump' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.077  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/configprops' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.078  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/loggers' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.078  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/metrics' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.078  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/info' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.079  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/auditevents' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.079  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/hystrix.stream' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.079  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/env' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.080  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/jolokia' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.080  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/logfile' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.082  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/liquibase' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.082  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/refresh' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.083  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/flyway' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.085  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/trace' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.086  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance 236274f47f1f on endpoint 'http://PC201905151653:8763/actuator/heapdump' failed: Connection refused: no further information: PC201905151653/192.168.150.1:8763
+2019-06-26 16:02:28.095  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/dump' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.095  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/logfile' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.095  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/trace' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.095  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/flyway' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.095  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/auditevents' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.096  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/env' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.096  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/heapdump' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.096  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/metrics' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.096  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/liquibase' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.096  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/hystrix.stream' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.096  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/loggers' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.097  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/refresh' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.097  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/configprops' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.097  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/jolokia' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:28.098  WARN 17044 --- [reactor-http-nio-6] d.c.b.a.s.s.e.ProbeEndpointsStrategy     : Endpoint probe for instance af1cc2eeb332 on endpoint 'http://192.168.3.187:8763/actuator/info' failed: Connection refused: no further information: /192.168.3.187:8763
+2019-06-26 16:02:45.169  INFO 17044 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance 'af1cc2eeb332' missing in DiscoveryClient services and will be removed.
+2019-06-26 16:04:14.761  INFO 17044 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 16:06:29.197  INFO 17044 --- [Thread-27] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-ADMIN with eureka with status DOWN
+2019-06-26 16:06:29.198  WARN 17044 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561536389198, current=DOWN, previous=UP]
+2019-06-26 16:06:29.198  INFO 17044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000: registering service...
+2019-06-26 16:06:29.201  INFO 17044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000 - registration status: 204
+2019-06-26 16:06:29.206  INFO 17044 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-26 16:06:29.208  INFO 17044 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-06-26 16:06:32.209  INFO 17044 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-06-26 16:06:32.213  INFO 17044 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000 - deregister  status: 200
+2019-06-26 16:06:32.219  INFO 17044 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-06-26 16:06:37.585  INFO 20276 --- [main] c.y.s.a.AdminServerApplication           : No active profile set, falling back to default profiles: default
+2019-06-26 16:06:38.099  WARN 20276 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-06-26 16:06:38.221  INFO 20276 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6d14a5d2-0355-3dff-acdd-10a3202b5b2f
+2019-06-26 16:06:38.289  INFO 20276 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$81f24341] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-26 16:06:38.467  INFO 20276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-06-26 16:06:38.483  INFO 20276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-26 16:06:38.483  INFO 20276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-26 16:06:38.589  INFO 20276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-26 16:06:38.589  INFO 20276 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 999 ms
+2019-06-26 16:06:38.669  WARN 20276 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 16:06:38.669  INFO 20276 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 16:06:38.677  INFO 20276 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@100ad67e
+2019-06-26 16:06:39.173  WARN 20276 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 16:06:39.173  INFO 20276 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 16:06:39.305  INFO 20276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-26 16:06:39.380  WARN 20276 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-06-26 16:06:40.110  INFO 20276 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-26 16:06:40.196  INFO 20276 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-06-26 16:06:40.225  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-06-26 16:06:40.496  INFO 20276 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-06-26 16:06:40.497  INFO 20276 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-06-26 16:06:40.588  INFO 20276 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-06-26 16:06:40.588  INFO 20276 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-06-26 16:06:40.752  INFO 20276 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 16:06:40.880  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-06-26 16:06:40.880  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-06-26 16:06:40.880  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-06-26 16:06:40.880  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-06-26 16:06:40.880  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-06-26 16:06:40.880  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-06-26 16:06:40.880  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-06-26 16:06:41.018  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-06-26 16:06:41.020  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-06-26 16:06:41.022  INFO 20276 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-06-26 16:06:41.025  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1561536401024 with initial instances count: 3
+2019-06-26 16:06:41.026  INFO 20276 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-ADMIN with eureka with status UP
+2019-06-26 16:06:41.026  INFO 20276 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561536401026, current=UP, previous=STARTING]
+2019-06-26 16:06:41.028  INFO 20276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000: registering service...
+2019-06-26 16:06:41.059  INFO 20276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SERVICE-ADMIN/PC201905151653:service-admin:9000 - registration status: 204
+2019-06-26 16:06:41.394  INFO 20276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-06-26 16:06:41.395  INFO 20276 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2019-06-26 16:06:41.396  INFO 20276 --- [main] c.y.s.a.AdminServerApplication           : Started AdminServerApplication in 4.927 seconds (JVM running for 5.661)
+2019-06-26 16:06:41.761  INFO 20276 --- [RMI TCP Connection(2)-192.168.150.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-26 16:06:41.761  INFO 20276 --- [RMI TCP Connection(2)-192.168.150.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-26 16:06:41.768  INFO 20276 --- [RMI TCP Connection(2)-192.168.150.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-06-26 16:11:40.885  INFO 20276 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 16:16:40.889  INFO 20276 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 16:21:40.891  INFO 20276 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 16:26:40.892  INFO 20276 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

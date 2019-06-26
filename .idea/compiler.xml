@@ -6,23 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-feign" />
-        <module name="service-zuul" />
-        <module name="sc-model" />
-        <module name="sc-amqp" />
         <module name="config-server" />
-        <module name="dynamic-route" />
-        <module name="hystrix-dashboard" />
-        <module name="eureka-server" />
-        <module name="service-hi" />
-        <module name="service-ribbon" />
         <module name="config-client" />
+        <module name="service-feign" />
+        <module name="service-miya" />
+        <module name="service-hi" />
+        <module name="admin-server" />
+        <module name="service-zuul" />
+        <module name="service-ribbon" />
+        <module name="dynamic-route" />
+        <module name="eureka-server" />
+        <module name="sc-model" />
+        <module name="hystrix-dashboard" />
         <module name="sc-test" />
+        <module name="sc-amqp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sc-stream" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-server" options="-parameters" />
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="dynamic-route" options="-parameters" />
@@ -31,11 +38,14 @@
       <module name="sc-all" options="-parameters" />
       <module name="sc-amqp" options="-parameters" />
       <module name="sc-model" options="-parameters" />
+      <module name="sc-stream" options="-parameters" />
       <module name="sc-test" options="-parameters" />
       <module name="service-feign" options="-parameters" />
       <module name="service-hi" options="-parameters" />
+      <module name="service-miya" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
     </option>
   </component>
 </project>

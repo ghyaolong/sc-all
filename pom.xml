@@ -22,7 +22,6 @@
         <module>config-client</module>
         <module>dynamic-route</module>
         <module>service-miya</module>
-        <module>sc-stream</module>
     </modules>
 
     <parent>

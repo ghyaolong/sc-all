@@ -6,6 +6,10 @@ spring:
     name: service-hi
   zipkin:
     base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:9000
 
 eureka:
   client:
@@ -13,7 +17,17 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
-
-
-
-
+logging:
+  file: "log/service-hi.log"
+  level:
+    org.springframework.web: TRACE
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    enabled-by-default: true
+  endpoint:
+    health:
+      show-details: always
+      enabled: true
